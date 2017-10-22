@@ -1,0 +1,121 @@
+/* Term Project, Group 3, CSS File */
+  /* Sumbit Button right, about footer bar*/
+html{
+  height: 100%;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif; 
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	background-size: 50% 60%; /* X,Y width Height */
+	background-position: right bottom;
+	background-attachment: fixed;
+	background-color: #cccccc; /*light Grey*/
+	width: 800px;
+	min-height: 100%;
+	position: relative;
+}
+
+#logo:hover{
+	cursor: pointer; 
+}
+
+#logo{
+	width:3%;
+	height:5%;
+	margin: 1% 1% 1% 1%;
+}
+
+h1{
+	font-family: 'Bad Script', cursive;
+	margin: 1% 1% 1% 1%;
+}
+
+footer{
+	clear: both;
+	position:fixed; 
+	width: 100%;
+	bottom: 0%;
+	height: 15px;
+	border-width: 2px;
+	border-color: #ccc;
+	border-style: solid;
+	background-color: #fff;
+	text-align: center;
+	margin-top: -30px;
+}
+
+.content{
+	border-width: 1px;
+	border-color: #ccc;
+	border-style: solid;
+	background-color: #fff;
+	padding: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;	
+	border-radius: 14px;
+} 
+
+
+.flag{
+	margin: 1%;
+	float: right;
+	color: #4CAF50; /* Dark green */
+}
+
+.flagged{
+	margin: 1%;
+	float: right;
+	color: #8B0000; /* Dark red */
+	
+}
+.sortButton{
+	margin: 1% 1% 1% 1%;
+	float: right;
+}
+
+
+
+#date{
+	font-family: 'Bad Script', cursive;
+}
+#comments{
+	border-radius: 14px;
+	resize: none;
+	padding: 1%;
+	width: 98%;
+}
+
+.submitButton{
+	margin: 0% 1% 0% 1%;
+	float: right;
+}
+
+.tagButton{
+	margin: 0% 1% 0% 1%;
+}
+
+#commentBox{
+	margin: 1%;
+	clear: both;
+}
+
+#wholeBox{
+	background-color: #bbbbbb; /* Very Light Grey */	
+	border-radius: 14px;
+	margin: 1%;
+	padding: .5%;
+}
+
+#bodyBlock{
+	height: auto;
+	min-height: 100%;
+}
+
+html, body, #bodyBlock {
+	margin: 0;
+	height: 100%;
+	width: 95%;
+}
+
